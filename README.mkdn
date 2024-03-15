@@ -9,7 +9,7 @@ cd matrixx
 ```
 ### Initializing Repo
 ```
-repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs --depth=1
+repo init -u https://github.com/pearljey/matrixx-judy.git -b 14.0 --git-lfs --depth=1
 ```
 
 ### Now sync sources
@@ -20,6 +20,6 @@ repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc 
 ### Now run
 ```
 . build/envsetup.sh
-lunch lineage_devicecodename-buildtype
+lunch lineage_judyln-buildtype
 m bacon
 ```
